@@ -1,0 +1,103 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (too large for GitHub; see README for acquisition instructions)
+*.parquet
+*.csv
+
+# Model weights and checkpoints
+*.h5
+*.keras
+*.pkl
+kt_gru_semo/
+
+# Temp and OS files
+~$*
+.DS_Store
+Thumbs.db
+debug.log
+*.svg
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# Project folders not relevant to source code
+Documentation/
+Reports/
+FYP Resources/
+Not In Focus/
+data/
+figures/
+results/
+
+# Root-level files (duplicates of chapter1/ and chapter2/ contents)
+/00_setup.ipynb
+/01_data_pipeline.py
+/01_data_pipeline.ipynb
+/02_event_definition.py
+/02_event_definition.ipynb
+/03_feature_operators.py
+/03_feature_operators.ipynb
+/04_baselines.py
+/04_baselines.ipynb
+/05_GRU_architecture.py
+/05_GRU_architecture.ipynb
+/05_GRU_architecture_bulletproof.py
+/diagnostic_gru.py
+/diagnostic_gru.ipynb
+/diagnostic_gru_bulletproof.py
+/diagnostic_gru copy.ipynb
+/semo_data_pipeline.py
+/semo_full_power_data_pipeline.py
+/gru_model_semo.ipynb
+/gru_model_semo copy.ipynb
+/Project_Log_D21127732.docx
+/Fold_Dates.md
+/MCPT.md
+
+# Root-level results files (large binaries already excluded by *.parquet, *.pkl, *.csv, *.svg)
+results/baselines_*.parquet
+results/baselines_*.txt
+results/full_gru_hyperparameter_search_results.pkl
+
+# Root-level images
+/baseline_comparison_tuning.png
+/final_evaluation_held_out.png
+/gru_diagnostic.png
+/gru_diagnostic_folds.png
+/gru_final_evaluation.png
+
+# Old Chapter 2 folder (replaced by chapter2/)
+Chapter 2/
+
+# Unwanted files inside chapter1/ (non-bulletproof .py duplicates and extras)
+chapter1/00_setup.ipynb
+chapter1/01_data_pipeline.py
+chapter1/02_event_definition.py
+chapter1/03_feature_operators.py
+chapter1/04_baselines.py
+chapter1/05_GRU_architecture.py
+chapter1/05_GRU_architecture.ipynb
+chapter1/diagnostic_gru.py
+chapter1/diagnostic_gru.ipynb
+
+# Unwanted files inside chapter2/
+chapter2/gru_model_semo.ipynb
+
+# Word temp files
+~$*
